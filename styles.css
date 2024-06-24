@@ -1,0 +1,148 @@
+/* #region General */
+/***************************************
+General
+***************************************/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  /*background: url('../images/background1.PNG') top left no-repeat;*/
+  background-color: #153448;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #dfd0b8;
+}
+#wrapper {
+  width: 90%;
+  margin: auto;
+}
+@font-face {
+  font-family: 'Heebo';
+  src: url(../fonts/Heebo.ttf);
+}
+/* #endregion */
+
+/* #region Header */
+/***************************************
+Header
+***************************************/
+header img {
+  width: 120px;
+}
+header > section > figure {
+  display: inline;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 50px;
+}
+h1 {
+  color: #dfd0b8;
+  text-align: center;
+  font-size: 5em;
+}
+/* #endregion */
+
+/* #region Main */
+/***************************************
+Main
+***************************************/
+table {
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 90%;
+  background-color: #dfd0b8;
+}
+table th {
+  font-size: 2em;
+}
+table,
+th,
+td {
+  border: 1px solid;
+  border-color: black;
+  text-align: center;
+  color: #3c5b6f;
+  height: 40px;
+  font-weight: 1500;
+}
+
+.end{
+  height: 90%;
+  width: 90%;
+}
+
+input {
+  height: 60%;
+  width: 60%;
+  display: block;
+}
+
+main figure{
+  margin-left: 90%;
+  margin-top: 3%;
+}
+
+img{
+width:80px;
+}
+
+
+.open-button {
+  background-color:#153448;
+  border: none;
+  position: fixed;
+  right: 30px;
+  margin-top: 2%;
+}
+.form-popup {
+  display: none;
+  position: fixed;
+ 
+  top:20%;
+  right: 32%;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  background-color: #3C5B6F;
+  width: 500px;
+}
+
+.form-container{
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+
+.btn{
+  display: inline;
+  margin-top: 5%;
+  width:90px;
+}
+/* #endregion */
+
+/* #region footer */
+/***************************************
+footer
+***************************************/
+
+footer p {
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+  margin-top: 10%;
+  left:41%;
+}
+
+
+/* #endregion */
+
+/* #region media */
+/***************************************
+media
+***************************************/
+@media only screen and (max-width: 430px) {
+}
+
+/* #endregion */

@@ -50,30 +50,63 @@ h1 {
 /***************************************
 Main
 ***************************************/
-table {
-  margin-left: 5%;
-  margin-top: 5%;
-  width: 90%;
-  background-color: #dfd0b8;
-}
-table th {
-  font-size: 2em;
-}
-table,
-th,
-td {
-  border: 1px solid;
-  border-color: black;
+
+span{
+  display: inline-block;
+  width: 150px;
   text-align: center;
-  color: #3c5b6f;
-  height: 40px;
-  font-weight: 1500;
 }
 
-.end{
-  height: 90%;
-  width: 90%;
+.mail{
+  display: inline-block;
+  width: 200px;
 }
+.home{
+  display: inline-block;
+  width: 170px;
+}
+ul{
+  margin-top: 40px;
+  margin-left: 12%;
+  
+   width: 80%;
+
+}
+#categories {
+  
+  font-size: 1.6em;
+}
+
+#categories:hover{
+  background-color:#153448;
+
+}
+li{
+  list-style: none;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  margin-top: 2%;
+  font-weight: 500;
+  
+}
+li:hover{
+  background-color:rgba(60, 91, 111,0.8);
+}
+
+
+ul li span img{
+  width: 40px;
+  height: 40px;
+ 
+}
+
+
+.end{
+  display: inline;
+  height: 30px;
+  width: 50px;
+}
+
 
 input {
   height: 60%;
